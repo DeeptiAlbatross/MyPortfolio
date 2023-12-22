@@ -6,35 +6,204 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9747f0bf35.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="hero ">
         <nav class="nav">
           <img
-           src="images/namelogo.jpeg"
+           src="images/dipti-tait-logo.png"
             class="logo">
           <ul>
             <li><a href="#">HOME</a></li>
             <li><a href="#">ABOUT</a></li>
             <li><a href="#">PORTFOLIO</a></li>
             <li><a href="#">SERVICES</a></li>
-            <li><a href="#">HIRE ME </a></li>
+            <li><a href="#">CONTACT </a></li>
           </ul>
         </nav>
       <div class="details">
-         <h1>I'm Deepti <span>Rajput</span></h1>
+        <p>Full Stack Developer</p>
+         <h1>Hi ,I'm Deepti <span>Rajput</span></h1>
           <p>This is my official portfolio website to showes all.
             <br> Details and work exiprins web development.
             
          </p>
-        <a href="#">DOWNLOAD CV</a>
+        <!-- <a href="#">DOWNLOAD CV</a> -->
       </div>
-      <div class="images">
+      <div class="images">  
         <img src="images/background.png" class="shape">
         <img src="images/WhatsApp_Image_2023-12-21_at_1.08.37_PM-removebg-preview.png" class="girl">
 
       </div>
-    </div>
-    
+     </div>
+
+
+     <!-- ----------------------ABOUT------------------------ -->
+     <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="images/WhatsApp Image 2023-12-21 at 10.19.09 PM.jpeg">
+                </div>
+                <div class="about-col-2">
+                     <h1 class="sub-title" >About Me </h1>
+                     <p>bsvn cxnmz fbhjadskhjdnbncc bdhdlsad dgfhdjsdkmsndmfhdfdhfdjjjjjjjjjjjjjjjjjjjjjjj
+                        snbdcmdkjdjhbn mkjuytdrsxcv bnmjhkuyghfcvbnmjkhugyvbnmjkuytfgdcvb nmjkhuyghvb
+                        gfcvbnjhugyhvbnmkjiuyghfvb nmkjhuiygfhvbnmjkhuiygfhvbnm.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">SKILLS</p>
+                            <p class="tab-links" onclick="opentab('Experience')">EXPERIENCE</p>
+                            <p class="tab-links" onclick="opentab('Education')">EDUCATION</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web /App interfaces</li>
+                                <br>
+                                <li><span>Web Development</span><br>Web app development</li>
+                                <br>
+                                <li><span>App Development</span><br>Building android/ios applications</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2021-Current</span><br>UI/UX Training inDesigning Web /App interfaces.</li>
+                                <br>
+                                <li><span>2019-2020</span><br> training od Web app development Rsyatems company.</li>
+                                <br>
+                                <li><span>2020-2021</span><br>Training at ekart ecommerce.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2021</span><br>Full stack training at Software tech limited.</li>
+                                <br>
+                                <li><span>2024</span><br> Btech from Sharda Universty.</li>
+                                <br>
+                                <li><span>2021</span><br>Schooling</li>
+                            </ul>
+                        </div>
+                </div>
+
+
+            </div>
+        </div>
+     </div>
+     <!------------------------SERVICES------------------------->
+     <div id="services">
+        <div class="container "></div>
+        <h1 class="sub-title" >My services </h1>
+         <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore qui sunt nostrum voluptatum.
+                     Quo amet, quas nemo praesentium enim odit ab culpa.Harum aperiam minima esse beatae. Veritatis, expedita odit?</p>
+                     <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Web Developmet</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore qui sunt nostrum voluptatum.
+                     Quo amet, quas nemo praesentium enim odit ab culpa.Harum aperiam minima esse beatae. Veritatis, expedita odit?</p>
+                     <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Development</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore qui sunt nostrum voluptatum.
+                     Quo amet, quas nemo praesentium enim odit ab culpa.Harum aperiam minima esse beatae. Veritatis, expedita odit?</p>
+                     <a href="#">Learn More</a>
+            </div>
+        </div>
+     </div>
+     <!-- <-------------------PORTFOLIO--------------------> -->
+     <div id="portfolio">
+        <div class="container "></div>
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpeg" >
+                    <div class="layer">
+                        <h3>E-commerce application</h3>
+                        <p> One such groundbreaking application,is making waves in the industry by redefining the way people shop online.</p>
+                             <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-22.jpeg" >
+                    <div class="layer">
+                        <h3>E-learning platform </h3>
+                        <p> n an era marked by rapid technological advancements and an increasing demand for flexible education, our e-learning platform stands at the forefront of revolutionizing the way individuals acquire knowledge.</p>
+                             <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpeg" >
+                    <div class="layer">
+                        <h3>Hotel booking website</h3>
+                        <p>In the age of seamless travel and unforgettable experiences, [Your Hotel Booking Website] emerges as a beacon for travelers seeking not just a place to stay, but a destination in itself. </p>
+                             <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See More </a>
+        </div>
+     </div>
+     <!-- <------------------------CONTACT---------------------------> -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> deepti.23.rajput@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> 9719429066</p>
+                     <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/deepti-rajput-0a057623a/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/DeeptiAlbatross/MyPortfolio"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                     </div>
+                        <a href="images/Deepti Resume.internship (1).docx" download class="btn btn2">DOWNLOAD CV</a>
+                     
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email " placeholder="Enter email" required>
+                        <textarea name="Message" rows="6" placeholder="Type your message"></textarea>
+                        <button type="submit" class="btn btn2 ">Submit</button>
+                    </form>
+                     
+                </div> 
+            </div>
+        </div>
+        <div class="copyright ">
+            <p>Copyright @Deepti Rajput, Made with <i class="fa-solid fa-heart"></i> </p>
+        </div>
+     </div>
+
+     <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents ");
+
+        function opentab(tabname){
+            for( tablink of tablinks )
+            {
+                tablink.classList.remove("active-link");
+            }
+
+            for( tabcontent of tabcontents ){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+
 </body>
 </html>
